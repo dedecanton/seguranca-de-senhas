@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="pt-5">Site desenvolvido por <a className="underline" href="https://www.linkedin.com/in/andre-canton/">André Luís Lorini Canton</a></p>
+        <p className="pt-5">Site desenvolvido por <a className="underline" target={"_blank"} href="https://www.linkedin.com/in/andre-canton/">André Luís Lorini Canton</a></p>
       </div>
     </footer>
   );
