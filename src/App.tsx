@@ -5,6 +5,7 @@ import Layout from "./components/layout";
 import Inicio from "./sections/Inicio";
 import Problema from "./sections/Problema";
 import SenhaFraca from "./sections/SenhaFraca";
+import Violacao from "./sections/Violacao";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Inicio />
       <Problema />
       <SenhaFraca />
+      <Violacao />
     </Layout>
   );
 }
