@@ -1,15 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Layout from './components/layout';
-import Inicio from './sections/Inicio';
-import Problema from './sections/Problema';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Layout from "./components/layout";
+import Inicio from "./sections/Inicio";
+import Problema from "./sections/Problema";
+import SenhaFraca from "./sections/SenhaFraca";
 
 function App() {
   return (
     <Layout>
-      <Inicio/>
-      <Problema/>
+      <Inicio />
+      <Problema />
+      <SenhaFraca />
     </Layout>
   );
 }
