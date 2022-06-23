@@ -6,6 +6,7 @@ import Inicio from "./sections/Inicio";
 import Problema from "./sections/Problema";
 import SenhaFraca from "./sections/SenhaFraca";
 import Violacao from "./sections/Violacao";
+import Dicas from "./sections/Dicas";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Problema />
       <SenhaFraca />
       <Violacao />
+      <Dicas />
     </Layout>
   );
 }
