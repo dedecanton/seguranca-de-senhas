@@ -6,7 +6,7 @@ const Inicio = () => {
     <>
     <Section
       id="inicio"
-      className="min-h-screen max-h-screen flex-col space-y-5 lg:space-y-10 text-center text-primary "
+      className="min-h-screen max-h-screen flex-col space-y-5  text-center text-primary "
       sectionClassName="bg-cover bg-opacity-25"
     >   
         <img className="sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-xl p-10" src="/images/background.svg" alt="" />
